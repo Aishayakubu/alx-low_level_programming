@@ -16,6 +16,6 @@ for (c = 65; c <= 90; c++)
 {
 _putchar(c);
 }
-_putchar(0);
+_putchar('\n');
 return (0);
 }
