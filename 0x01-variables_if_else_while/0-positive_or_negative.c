@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include "_putchar.c"
+
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -18,16 +18,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		_putchar ('+');
+	return (n);
 	}
 	else if (n < 0)
 	{
-	_putchar ('-');
+	return (-n);
 	}
 	else
 	{
-	_putchar ('0');
-	}
 	return (0);
+	}
 }
 
