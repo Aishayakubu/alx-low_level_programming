@@ -7,12 +7,10 @@
  */
 int _strlen(char *s)
 {
-int a = 0;
-if (*s != '\0')
-{
-a++;
-s++;
-}
+int len;
+s = "my first string";
+len = strlen(s);
+printf("%d\n", len);
 
 return (0);
 }
