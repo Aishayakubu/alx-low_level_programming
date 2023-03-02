@@ -6,10 +6,14 @@
  * @src: second string
  * Return: 0
  */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
-char dest;
-char src;
-int i;
-for(i = 0;i
+char *p = dest;
+for (dest = 0; *dest != '\0'; dest++)
+for (src = 0; *src != '\0'; src++)
+{
+*dest = *src;
+}
+*dest = '\0';
+return (p);
 }
